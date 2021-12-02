@@ -62,7 +62,6 @@ Then, you need to merge all these `.vec` samples to create a single file:
 ```bash
 python mergevec.py -v samples/ -o samples.vec
 ```
-<br/>
 
 ### step 4 - Training Local Binary Pattern (LBP) cascade
 Although LBP algorithm is much faster than Haar, it is less accurate. We aim to have a fast but less-accurate application so we use this algorithm to train our detector:
