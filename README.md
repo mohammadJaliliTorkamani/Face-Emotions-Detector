@@ -71,7 +71,7 @@ opencv_traincascade -data lbp -vec samples.vec -bg negatives.txt -numStages 20 -
 ```
 
 <br/>
-Soon after entering the command, the training operation starts to create a cascade detector. After a few hours, you will have a file named `cascade.xml` , which can be used to detect human faces.
+Soon after entering the command, the training operation starts to create a cascade detector. After a few hours, you will have a file named `cascade.xml`, which can be used to detect human faces.
 <br/>
 
 <br/>
