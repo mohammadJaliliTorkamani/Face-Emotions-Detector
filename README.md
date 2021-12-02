@@ -25,3 +25,4 @@ python3 ./Code/completed.py
 ```
 
 ## Output:
+![output](https://github.com/mohammadJaliliTorkamani/Face-Emotions-Detector/blob/master/media/ezgif.com-gif-maker.mp4 "output")
