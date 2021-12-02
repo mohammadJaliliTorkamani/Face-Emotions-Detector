@@ -87,7 +87,7 @@ python3 ./Code/completed.py
 
 <br/>
 
-## Output:
+## Output
 ![](https://github.com/mohammadJaliliTorkamani/Face-Emotions-Detector/blob/master/media/ezgif.com-gif-maker.gif)
 
 
