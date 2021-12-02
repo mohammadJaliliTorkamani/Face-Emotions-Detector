@@ -1,5 +1,5 @@
 ### Python Face Emotion Detetor (OpenCV + Cascade Classifier)
-an open-source console application developed with `Python 3` using `OpenCV`, `Keras` and `Cascade classifier` to train and detect seven human face emotion types as follows below:
+an open-source console application developed with `Python 3` using `OpenCV`, `Keras`, and `Cascade classifier` to train and detect seven human face emotion types as follows below:
 * Angry
 * Happy
 * Disgust
@@ -41,8 +41,7 @@ sudo pip3 install imutils
 First of all, extract **Datasets.zip** into the main project directory, then follow thes steps:
 
 ###step 1 - Collecting Dataset
-First of all, You need to  use cascade classifier method to detect human faces. A variety of datasets can be found on the internet for face detection. Look at [here](http://vision.ucsd.edu/content/yale-face-database) or [here](http://vision.ucsd.edu/content/extended-yale-face-database-b-b) for instance and download a suitable dataset. You can use the cropped faces for positive examples (the cropped faces are either available in the datasets, or you need to extract them using bounding boxes and resize them for training).
-after 
+First of all, You need to use the cascade classifier method to detect human faces. You can find a variety of datasets on the internet for face detection. Look at [here](http://vision.ucsd.edu/content/yale-face-database) or [here](http://vision.ucsd.edu/content/extended-yale-face-database-b-b) for instance and download a suitable dataset. You can use the cropped faces for positive examples. (the cropped faces are either available in the datasets, or you need to extract them using bounding boxes and resize them for training).
 
 ###step 2 - Creating training data files
 You need to create postives.txt and negatives.txt files using the commands below:
@@ -52,7 +51,7 @@ find ./positive_images -iname "*.jpg" > positives.txt
 ```
 
 ###step 3 - Craeting sample
-First, Use createsamples.pl file (located in Final directory) to create `.vec` file for each image of dataset. The output of this command is a set of `.vec` files, a binary format which contains images. :
+First, use the createsamples.pl file (located in the Final directory) to create a `.vec` file for each dataset image. The output of this command is a set of `.vec` files, a binary format that contains images:
 ```bash
 perl createsamples.pl positives.txt negatives.txt ../samples 5000 "opencv_createsamples -bgcolor 0 -bgthresh 0 -maxxangle 1.1 -maxyangle 1.1 maxzangle 0.5 -maxidev 40 -w 40 -h 40"
 ```
@@ -68,7 +67,7 @@ As you know, LBP is much faster than Haar but is less accurate. We use this meth
 ```bash
 opencv_traincascade -data lbp -vec samples.vec -bg negatives.txt -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -numPos 4000 -numNeg 7000 -w 40 -h 40 -mode ALL -precalcValBufSize 4096 -precalcIdxBufSize 4096 -featureType LBP
 ```
-Soon after entering the command, the training operation to create cascade detector starts and after a while, you have a file named 'cascade.xml' which can be used to detect human faces.
+Soon after entering the command, the training operation to create a cascade detector starts, and after a while, you have a file named 'cascade.xml', which You can use to detect human faces.
 <br/>
 
 ## Training Facial Expression Classification
@@ -76,7 +75,7 @@ Run `neural_network_classifier_default.py` to start training of the dataset:
 ```bash
 python neural_network_classifier_default.py
 ```
-After spending a while, you have some models file with `.hdf5` extension in your models directory located in Code directory. Stop training when your have the least loss and max accuracy. We have used  `_mini_XCEPTION.75-0.64.hdf5` weight as our main weight file but you can use your desired file instead. Note that you have to change `weight_file_address` varriable in `completed.py` in case of using another weight file for detection. 
+After a while, you have some models file with `.hdf5` extension in your models directory located in Code directory. Stop training when you have the least loss and max accuracy. We have used  `_mini_XCEPTION.75-0.64.hdf5` weight as our main weight file, but you can use your desired file instead. Note that you have to change the `weight_file_address` variable in `completed.py` to use another weight file for detection. 
 
 ## Running
 Open your terminal in the project directory and enter this command:
