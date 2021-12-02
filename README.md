@@ -41,8 +41,9 @@ sudo pip3 install imutils
 ## Training face detector
 
 ### step 1 - Extracting the dataset
-Extract **Datasets.zip** into the main project directory
+Download an **Datasets.zip** from this link and extract it into the main project directory
 
+(link will be available soon due to the large file size)
 <br/>
 
 ### step 2 - Creating training data files
