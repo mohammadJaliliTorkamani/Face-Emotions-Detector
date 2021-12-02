@@ -80,7 +80,7 @@ Soon after entering the command, the training operation starts to create a casca
 Run **neural_network_classifier_default.py** to start training our Convolutional Neural Network (CNN) from the dataset:
 ```bash
 python neural_network_classifier_default.py
-```
+``` 
 After a while, you have some models file with `.hdf5` extension in your models directory located in Code directory. Stop training when you have the least loss and max accuracy. We have used  "_mini_XCEPTION.75-0.64.hdf5"  weight as our main weight file, but you can use your desired file instead. Note that you have to change the `weight_file_address` variable in **completed.py** in order to use another weight file.
 
 ## Running
