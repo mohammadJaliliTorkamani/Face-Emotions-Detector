@@ -97,6 +97,8 @@ python3 ./Code/completed.py
 ## Resource links
 | URL |
 | ------------ |
+| http://vision.ucsd.edu |
 | https://towardsdatascience.com |
 | https://www.digitalocean.com |
+| https://en.wikipedia.org/wiki/List_of_facial_expression_databases |
 
