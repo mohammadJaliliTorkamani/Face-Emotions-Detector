@@ -11,7 +11,7 @@ an open-source console application developed with `Python 3` using `OpenCV`, `Ke
 <br/>
 
 ## Requirements
-- Python (version 3) and pip: Follow [this link](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server) to install python3 and pip library on your computer.
+- Python3 and pip: Follow [this link](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server) to install python3 and pip library on your computer.
 
 - OpenCV:
 
