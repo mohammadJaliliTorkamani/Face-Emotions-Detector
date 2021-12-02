@@ -8,6 +8,9 @@ an open-source console application developed with `Python 3` using `OpenCV`, `Ke
 * Surprised
 * Neutral
 
+<br/>
+
+
 ## Requirements
 - OpenCV:
 ```bash```
@@ -28,7 +31,6 @@ sudo pip3 install imutils
 ```
 - NVidia, Cuda and cuDNN:
 If you have not already installed your graphic card drivers, you can follow [this link](https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d "this link") to install Nvidia drivers and configure your Cuda and cuDNN.
-
 
 <br/>
 
