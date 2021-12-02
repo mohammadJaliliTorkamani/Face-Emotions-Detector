@@ -95,8 +95,6 @@ python3 ./Code/completed.py
 
 
 ## Links
-| Resource url |
-| ------------ |
 | https://towardsdatascience.com |
 | https://www.digitalocean.com |
 
