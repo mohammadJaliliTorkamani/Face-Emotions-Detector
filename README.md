@@ -34,7 +34,7 @@ sudo pip3 install keras
 ```bash
 sudo pip3 install imutils
 ```
-- NVidia, Cuda and cuDNN: If you have not already installed your graphic card drivers, you can use [this link](https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d "this link") to install Nvidia drivers and configure your Cuda and cuDNN.
+- NVidia, Cuda and cuDNN: If you have not already installed your graphic card drivers, you can use [this link](https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d "this link") to install `Nvidia` drivers and configure your `Cuda` and `cuDNN`.
 
 <br/>
 
