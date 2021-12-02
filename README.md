@@ -100,4 +100,5 @@ python3 ./Code/completed.py
 | https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d |
 | https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server |
 | https://en.wikipedia.org/wiki/List_of_facial_expression_databases |
+| https://ezgif.com/maker |
 
