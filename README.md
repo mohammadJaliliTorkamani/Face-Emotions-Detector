@@ -47,7 +47,7 @@ after
 ###step 2 - Creating training data files
 You need to create postives.txt and negatives.txt files using the commands below:
 ```bash
-find ./negative_images -iname "*.jpg" > negatives.txt
+find ./negative_images -iname "*.pgm" > negatives.txt
 find ./positive_images -iname "*.jpg" > positives.txt
 ```
 
