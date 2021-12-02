@@ -43,6 +43,8 @@ sudo pip3 install imutils
 ### step 1 - Extracting the Dataset
 Extract **Datasets.zip** into the main project directory
 
+<br/>
+
 ### step 2 - Creating training data files
 You need to create postives.txt and negatives.txt files using the commands below:
 ```bash
@@ -70,6 +72,8 @@ opencv_traincascade -data lbp -vec samples.vec -bg negatives.txt -numStages 20 -
 
 <br/>
 Soon after entering the command, the training operation starts to create a cascade detector. After a few hours, you will have a file named 'cascade.xml', which can be used to detect human faces.
+<br/>
+
 <br/>
 
 ## Training Facial Expression Classification
