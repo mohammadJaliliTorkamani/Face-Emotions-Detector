@@ -1,5 +1,5 @@
 ### Python Face Emotion Detetor (OpenCV + Cascade Classifier)
-an open-source console application developed with `Python` using `OpenCV`, `Keras` and `Cascade classifier` to train and detect seven human face emotion types as follows below:
+an open-source console application developed with `Python 3` using `OpenCV`, `Keras` and `Cascade classifier` to train and detect seven human face emotion types as follows below:
 * Angry
 * Happy
 * Disgust
@@ -9,17 +9,31 @@ an open-source console application developed with `Python` using `OpenCV`, `Kera
 * Neutral
 
 ## Requirements
-- Python (Version >= 3.0)
-- OpenCV
-- tensorflow
+- OpenCV:
+```bash```
+sudo pip3 install opencv-python
+```
+
+- tensorflow (GPU version): 
+```bash```
+sudo pip3 install tensorflow-gpu
+```
 - Keras
+```bash```
+sudo pip3 install keras
+```
 - imutils
-- numpy
+```bash```
+sudo pip3 install imutils
+```
+- NVidia, Cuda and cuDNN:
+If you have not already installed your graphic card drivers, you can follow [this link](https://towardsdatascience.com/installing-tensorflow-gpu-in-ubuntu-20-04-4ee3ca4cb75d "this link") to install Nvidia drivers and configure your Cuda and cuDNN.
+
 
 ## Training
 First of all, you need to  use cascade classifier method to detect human faces. we have  do that before and saved the final .xml file in order to use as your cascade source file.  
 ## Running
-open your terminal on the project main directory and run the following terminal:
+Open your terminal in the project directory and enter this command:
 ```bash
 python3 ./Code/completed.py
 ```
