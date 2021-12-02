@@ -92,7 +92,7 @@ python3 ./Code/completed.py
 ![](https://github.com/mohammadJaliliTorkamani/Face-Emotions-Detector/blob/master/media/ezgif.com-gif-maker.gif)
 
 
-Resources
+### Resources
 | Links |
 | ------------ |
 | http://vision.ucsd.edu |
