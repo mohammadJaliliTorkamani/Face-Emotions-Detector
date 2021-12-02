@@ -94,8 +94,8 @@ python3 ./Code/completed.py
 ![](https://github.com/mohammadJaliliTorkamani/Face-Emotions-Detector/blob/master/media/ezgif.com-gif-maker.gif)
 
 
-## Link Resources
-| URL |
+## Links
+| Resource url |
 | ------------ |
 | https://towardsdatascience.com |
 | https://www.digitalocean.com |
