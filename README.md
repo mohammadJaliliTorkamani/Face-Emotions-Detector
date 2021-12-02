@@ -94,6 +94,8 @@ python3 ./Code/completed.py
 
 Links resource:
 http://vision.ucsd.edu
+
 https://towardsdatascience.com
+
 https://www.digitalocean.com
 
