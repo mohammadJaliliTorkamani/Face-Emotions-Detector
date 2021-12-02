@@ -75,7 +75,7 @@ Soon after entering the command, the training operation starts to create a casca
 
 <br/>
 
-## Training Facial Expression Classification
+## Training facial expression classification
 Run **neural_network_classifier_default.py** to start training our Convolutional Neural Network (CNN) from the dataset:
 ```bash
 python neural_network_classifier_default.py
