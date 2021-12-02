@@ -39,10 +39,9 @@ sudo pip3 install imutils
 <br/>
 
 ## Training face detector
-Extract **Datasets.zip** into the main project directory, then follow the instruction step by step:
 
-### step 1 - Collecting Dataset
-You can find a variety of face datasets on the internet. Look at [here](http://vision.ucsd.edu/content/yale-face-database) or [here](http://vision.ucsd.edu/content/extended-yale-face-database-b-b) for instance and download a suitable dataset. You can use the cropped faces for positive examples. (the cropped faces are either available in the datasets, or you need to extract them using bounding boxes and resize them for training).
+### step 1 - Extracting the Dataset
+Extract **Datasets.zip** into the main project directory
 
 ### step 2 - Creating training data files
 You need to create postives.txt and negatives.txt files using the commands below:
@@ -95,7 +94,6 @@ python3 ./Code/completed.py
 ### Link Resources
 | URL |
 | ------------ |
-| http://vision.ucsd.edu |
 | https://towardsdatascience.com |
 | https://www.digitalocean.com |
 
