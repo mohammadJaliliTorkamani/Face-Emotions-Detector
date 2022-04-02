@@ -1,6 +1,6 @@
 # Python Face Emotion Detetor <br/>(OpenCV + Cascade Classifier)
 
-<img src="https://badgen.net/badge/Version/1.0/blue?icon=github"> <img src="https://badgen.net/badge/status/active/green?icon=git">
+<img src="https://badgen.net/badge/Version/1.0/blue?icon=github"> <img src="https://badgen.net/badge/Status/Stable/green?icon=git">
 <br/>
 <br/>
 <a href="https://www.buymeacoffee.com/mohammadjalili" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
